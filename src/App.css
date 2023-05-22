@@ -1,0 +1,58 @@
+.app{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.app__tittle {
+    position: absolute;
+    top: 3em;
+    font-size: 1.7rem;
+}
+
+button{
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    background-color: #FFA645;
+    font-weight: bold;
+    color: #893446;
+    border: 0.1em solid currentColor;
+    transition: transform 100ms ease,filter 100ms ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.card{
+    padding: 0.5em;
+    border-radius: 0.8em;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    line-height: 1.5;
+    border: 0.15em solid #6894B4;
+    color: #00000088;
+    box-shadow: 0.3em 0.3em 1em #0008;
+}
+
+.card__author{
+    justify-content: left;
+    gap: 1rem;
+    width: 100vh;
+    padding-left: 5em;
+    color:  #00000088;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
