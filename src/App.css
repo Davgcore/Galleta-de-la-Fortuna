@@ -49,6 +49,7 @@ button:hover{
     width: 100vh;
     padding-left: 5em;
     color:  #00000088;
+    max-width: 500px;
 }
 
 .bold{
